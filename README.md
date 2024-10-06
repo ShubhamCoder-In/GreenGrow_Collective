@@ -1,7 +1,5 @@
 Here's a detailed README.md file template for your project "GreenGrow Collective," including information about the hackathon, project objectives, setup instructions, and how to contribute.
 
-markdown
-Copy code
 # GreenGrow Collective
 
 ![GreenGrow Collective Logo](path_to_your_logo_image) <!-- Replace with your logo image path if you have one -->
@@ -58,44 +56,44 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/ShubhamCoder-In/GreenGrow_Collective.git
    cd GreenGrow_Collective
-Install Dependencies: Use a package manager like pip to install the necessary Python libraries. Ensure you have Python 3 installed.
+   ```
+- Install Dependencies: Use a package manager like pip to install the necessary Python libraries. Ensure you have Python 3 installed.
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application: You can run the application locally using the following command:
-
-bash
-Copy code
-python app.py
-Open your browser and navigate to http://127.0.0.1:5000/ to access the application.
-
-Usage
-Select a Country: Choose the country for which you want predictions.
-Input Year: Enter the year you want to analyze.
-Choose Indicator: Select the environmental indicator you wish to predict.
-Submit: Click the 'Submit' button to get the prediction results.
-Contributing
+   ```bash
+   pip install -r requirements.txt
+   ````
+   Run the Application: You can run the application locally using the following command:
+   ```bash
+   python app.py
+   ```
+   Open your browser and navigate to http://127.0.0.1:5000/ to access the application.
+## Usage
+- Select a Country: Choose the country for which you want predictions.
+- Input Year: Enter the year you want to analyze.
+- Choose Indicator: Select the environmental indicator you wish to predict.
+- Submit: Click the 'Submit' button to get the prediction results.
+- 
+## Contributing
 We welcome contributions from everyone! If you'd like to contribute to the project, please follow these steps:
 
 Fork the repository.
-Create your feature branch:
-bash
-Copy code
+- Create your feature branch:
+```bash
 git checkout -b feature/YourFeature
-Commit your changes:
-bash
-Copy code
+```
+- Commit your changes:
+```bash
 git commit -m 'Add some feature'
-Push to the branch:
-bash
-Copy code
+```
+- Push to the branch:
+```bash
 git push origin feature/YourFeature
-Open a pull request.
+```
+- Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-NASA Space Apps Challenge: For organizing the event and providing valuable datasets.
-Open Data Initiatives: Encouraging collaboration and innovation using publicly available data.
-All Contributors: Thank you to everyone who contributed to this project.
+## Acknowledgments
+- NASA Space Apps Challenge: For organizing the event and providing valuable datasets.
+- Open Data Initiatives: Encouraging collaboration and innovation using publicly available data.
+- All Contributors: Thank you to everyone who contributed to this project.
