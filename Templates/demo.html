@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Section</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        .prediction-result {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            display: none; /* Hide by default */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Show Prediction</h2>
+        <form id="predictionForm">
+            <!-- Country Selection -->
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select class="form-control" id="country" name="country">
+                    <!-- Populate with countries from backend -->
+                    {% for code, name in countries %}
+                    <option value="{{ code }}">{{ name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Year Input -->
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="number" class="form-control" id="year" name="year" placeholder="Enter Year" required />
+            </div>
+
+            <!-- Indicator Selection -->
+            <div class="form-group">
+                <label for="indicator">Indicator</label>
+                <select class="form-control" id="indicator" name="indicator">
+                    <!-- Populate with indicators from backend -->
+                    {% for key, name in indicators %}
+                    <option value="{{ key }}">{{ name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Prediction Result Section -->
+        <div class="prediction-result" id="predictionResult">
+            <h3>Prediction Result</h3>
+            <p id="predictionOutput"></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle form submission
+        $(document).ready(function() {
+            $('#predictionForm').on('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission
+                
+                // Get form data
+                const formData = {
+                    country: $('#country').val(),
+                    year: $('#year').val(),
+                    indicator: $('#indicator').val()
+                };
+
+                // Make an AJAX request to the server
+                axios.post('/predict', formData)
+                    .then(function(response) {
+                        // Assuming the response contains the prediction result
+                        $('#predictionOutput').text(response.data.prediction); // Change this according to your API response
+                        $('#predictionResult').show(); // Show the prediction result section
+                    })
+                    .catch(function(error) {
+                        console.error("Error fetching prediction:", error);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
