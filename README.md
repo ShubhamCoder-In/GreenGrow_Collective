@@ -2,7 +2,7 @@ Here's a detailed README.md file template for your project "GreenGrow Collective
 
 # GreenGrow Collective
 
-![GreenGrow Collective Logo](ehttps://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto) <!-- Replace with your logo image path if you have one -->
+![GreenGrow Collective Logo](https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto) <!-- Replace with your logo image path if you have one -->
 
 ## Table of Contents
 - [Project Overview](#project-overview)
