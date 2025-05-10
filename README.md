@@ -2,7 +2,7 @@ Here's a detailed README.md file template for your project "GreenGrow Collective
 
 # GreenGrow Collective
 
-![GreenGrow Collective Logo](https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto) <!-- Replace with your logo image path if you have one -->
+![webpage image](https://drive.google.com/uc?export=view&id=1FR73-1uozzczgffmMkizjMjchESAZDGN )
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -19,8 +19,6 @@ Here's a detailed README.md file template for your project "GreenGrow Collective
 ## Project Overview
 
 **GreenGrow Collective** is a predictive analytics tool designed to assist farmers, corporations, and policymakers in making informed decisions related to agriculture and environmental sustainability. The project focuses on analyzing historical data and providing predictions about future environmental conditions, thereby empowering users to optimize their agricultural practices and improve sustainability efforts.
-
-![webpage image](https://drive.google.com/uc?export=view&id=1FR73-1uozzczgffmMkizjMjchESAZDGN )
 
 
 ## Hackathon Participation
