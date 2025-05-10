@@ -4,6 +4,8 @@ Here's a detailed README.md file template for your project "GreenGrow Collective
 
 ![webpage image](https://drive.google.com/uc?export=view&id=1FR73-1uozzczgffmMkizjMjchESAZDGN )
 
+🔗 [Live Demo](https://greengrow-collectives.onrender.com/)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Hackathon Participation](#hackathon-participation)
