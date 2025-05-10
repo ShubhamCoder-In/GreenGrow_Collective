@@ -20,7 +20,7 @@ Here's a detailed README.md file template for your project "GreenGrow Collective
 
 **GreenGrow Collective** is a predictive analytics tool designed to assist farmers, corporations, and policymakers in making informed decisions related to agriculture and environmental sustainability. The project focuses on analyzing historical data and providing predictions about future environmental conditions, thereby empowering users to optimize their agricultural practices and improve sustainability efforts.
 
-![webpage image]("https://drive.google.com/file/d/1FR73-1uozzczgffmMkizjMjchESAZDGN/view?usp=drive_link")
+![webpage image](https://drive.google.com/file/d/1FR73-1uozzczgffmMkizjMjchESAZDGN/view?usp=drive_link)
 
 
 ## Hackathon Participation
@@ -41,9 +41,9 @@ This project was developed as part of the **NASA Space Apps Challenge**, a globa
 - Predictive capabilities to forecast agricultural indicators based on historical data.
 - Real-time predictions with a user-friendly output display.
   
-![feature]("https://drive.google.com/file/d/1DdPZ74_6RvKdgUGz9BuMoyVNVg6UG6LX/view?usp=drive_link")
+![feature](https://drive.google.com/file/d/1DdPZ74_6RvKdgUGz9BuMoyVNVg6UG6LX/view?usp=drive_link)
 # graphic views future trend
-![graphic view]("https://drive.google.com/file/d/1IYVmH8aHS166zZii75V2kqOLauc29_e9/view?usp=drive_link")
+![graphic view](https://drive.google.com/file/d/1IYVmH8aHS166zZii75V2kqOLauc29_e9/view?usp=drive_link)
 
 
 ## Dataset Information
